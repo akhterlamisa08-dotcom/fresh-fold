@@ -19,6 +19,72 @@
  */
 
 @theme inline {
+  /* FreshFold brand system */
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-surface: var(--ff-surface);
+  --color-surface-bright: var(--ff-surface-bright);
+  --color-surface-dim: var(--ff-surface-dim);
+  --color-surface-container-lowest: var(--ff-scl);
+  --color-surface-container-low: var(--ff-sc-low);
+  --color-surface-container: var(--ff-sc);
+  --color-surface-container-high: var(--ff-sc-high);
+  --color-surface-container-highest: var(--ff-sc-highest);
+  --color-surface-variant: var(--ff-surface-variant);
+  --color-on-surface: var(--ff-on-surface);
+  --color-on-surface-variant: var(--ff-on-surface-variant);
+  --color-outline: var(--ff-outline);
+  --color-outline-variant: var(--ff-outline-variant);
+  --color-brand: var(--ff-primary);
+  --color-brand-container: var(--ff-primary-container);
+  --color-on-brand: var(--ff-on-primary);
+  --color-brand-fixed: var(--ff-primary-fixed);
+  --color-on-brand-fixed: var(--ff-on-primary-fixed);
+  --color-on-brand-fixed-variant: var(--ff-on-primary-fixed-variant);
+  --color-info: var(--ff-secondary);
+  --color-on-info: var(--ff-on-secondary);
+  --color-info-fixed: var(--ff-secondary-fixed);
+  --color-on-info-container: var(--ff-on-secondary-container);
+  --color-warn: var(--ff-tertiary);
+  --color-on-warn: var(--ff-on-tertiary);
+  --color-warn-fixed: var(--ff-tertiary-fixed);
+  --color-on-warn-fixed: var(--ff-on-tertiary-fixed);
+  --color-danger: var(--ff-error);
+  --color-on-danger: var(--ff-on-error);
+  --color-danger-container: var(--ff-error-container);
+  --color-inverse-surface: var(--ff-inverse-surface);
+  --color-inverse-on-surface: var(--ff-inverse-on-surface);
+
+  --text-label-sm: 10px;
+  --text-label-sm--line-height: 12px;
+  --text-label-sm--letter-spacing: 0.04em;
+  --text-label-sm--font-weight: 700;
+  --text-label-md: 12px;
+  --text-label-md--line-height: 16px;
+  --text-label-md--font-weight: 600;
+  --text-label-lg: 14px;
+  --text-label-lg--line-height: 20px;
+  --text-label-lg--font-weight: 600;
+  --text-body-sm: 12px;
+  --text-body-sm--line-height: 16px;
+  --text-body-md: 14px;
+  --text-body-md--line-height: 20px;
+  --text-body-lg: 16px;
+  --text-body-lg--line-height: 24px;
+  --text-headline-sm: 18px;
+  --text-headline-sm--line-height: 24px;
+  --text-headline-sm--font-weight: 600;
+  --text-headline-lg: 22px;
+  --text-headline-lg--line-height: 28px;
+  --text-headline-lg--font-weight: 700;
+  --text-headline-xl: 28px;
+  --text-headline-xl--line-height: 34px;
+  --text-headline-xl--font-weight: 700;
+  --text-display-lg: 40px;
+  --text-display-lg--line-height: 48px;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-display-lg--font-weight: 800;
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
