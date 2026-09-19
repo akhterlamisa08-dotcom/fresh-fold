@@ -128,8 +128,42 @@
 }
 
 :root {
+  /* FreshFold palette */
+  --ff-primary: #00685f;
+  --ff-primary-container: #008378;
+  --ff-on-primary: #ffffff;
+  --ff-primary-fixed: #89f5e7;
+  --ff-on-primary-fixed: #00201d;
+  --ff-on-primary-fixed-variant: #005049;
+  --ff-secondary: #006398;
+  --ff-on-secondary: #ffffff;
+  --ff-secondary-fixed: #cce5ff;
+  --ff-on-secondary-container: #00476e;
+  --ff-tertiary: #825100;
+  --ff-on-tertiary: #ffffff;
+  --ff-tertiary-fixed: #ffddb8;
+  --ff-on-tertiary-fixed: #2a1700;
+  --ff-error: #ba1a1a;
+  --ff-on-error: #ffffff;
+  --ff-error-container: #ffdad6;
+  --ff-surface: #faf8ff;
+  --ff-surface-bright: #faf8ff;
+  --ff-surface-dim: #d2d9f4;
+  --ff-scl: #ffffff;
+  --ff-sc-low: #f2f3ff;
+  --ff-sc: #eaedff;
+  --ff-sc-high: #e2e7ff;
+  --ff-sc-highest: #dae2fd;
+  --ff-surface-variant: #dae2fd;
+  --ff-on-surface: #131b2e;
+  --ff-on-surface-variant: #3d4947;
+  --ff-outline: #6d7a77;
+  --ff-outline-variant: #bcc9c6;
+  --ff-inverse-surface: #283044;
+  --ff-inverse-on-surface: #eef0ff;
+
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: #faf8ff;
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
