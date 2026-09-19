@@ -19,6 +19,72 @@
  */
 
 @theme inline {
+  /* FreshFold brand system */
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-surface: var(--ff-surface);
+  --color-surface-bright: var(--ff-surface-bright);
+  --color-surface-dim: var(--ff-surface-dim);
+  --color-surface-container-lowest: var(--ff-scl);
+  --color-surface-container-low: var(--ff-sc-low);
+  --color-surface-container: var(--ff-sc);
+  --color-surface-container-high: var(--ff-sc-high);
+  --color-surface-container-highest: var(--ff-sc-highest);
+  --color-surface-variant: var(--ff-surface-variant);
+  --color-on-surface: var(--ff-on-surface);
+  --color-on-surface-variant: var(--ff-on-surface-variant);
+  --color-outline: var(--ff-outline);
+  --color-outline-variant: var(--ff-outline-variant);
+  --color-brand: var(--ff-primary);
+  --color-brand-container: var(--ff-primary-container);
+  --color-on-brand: var(--ff-on-primary);
+  --color-brand-fixed: var(--ff-primary-fixed);
+  --color-on-brand-fixed: var(--ff-on-primary-fixed);
+  --color-on-brand-fixed-variant: var(--ff-on-primary-fixed-variant);
+  --color-info: var(--ff-secondary);
+  --color-on-info: var(--ff-on-secondary);
+  --color-info-fixed: var(--ff-secondary-fixed);
+  --color-on-info-container: var(--ff-on-secondary-container);
+  --color-warn: var(--ff-tertiary);
+  --color-on-warn: var(--ff-on-tertiary);
+  --color-warn-fixed: var(--ff-tertiary-fixed);
+  --color-on-warn-fixed: var(--ff-on-tertiary-fixed);
+  --color-danger: var(--ff-error);
+  --color-on-danger: var(--ff-on-error);
+  --color-danger-container: var(--ff-error-container);
+  --color-inverse-surface: var(--ff-inverse-surface);
+  --color-inverse-on-surface: var(--ff-inverse-on-surface);
+
+  --text-label-sm: 10px;
+  --text-label-sm--line-height: 12px;
+  --text-label-sm--letter-spacing: 0.04em;
+  --text-label-sm--font-weight: 700;
+  --text-label-md: 12px;
+  --text-label-md--line-height: 16px;
+  --text-label-md--font-weight: 600;
+  --text-label-lg: 14px;
+  --text-label-lg--line-height: 20px;
+  --text-label-lg--font-weight: 600;
+  --text-body-sm: 12px;
+  --text-body-sm--line-height: 16px;
+  --text-body-md: 14px;
+  --text-body-md--line-height: 20px;
+  --text-body-lg: 16px;
+  --text-body-lg--line-height: 24px;
+  --text-headline-sm: 18px;
+  --text-headline-sm--line-height: 24px;
+  --text-headline-sm--font-weight: 600;
+  --text-headline-lg: 22px;
+  --text-headline-lg--line-height: 28px;
+  --text-headline-lg--font-weight: 700;
+  --text-headline-xl: 28px;
+  --text-headline-xl--line-height: 34px;
+  --text-headline-xl--font-weight: 700;
+  --text-display-lg: 40px;
+  --text-display-lg--line-height: 48px;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-display-lg--font-weight: 800;
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -62,10 +128,44 @@
 }
 
 :root {
+  /* FreshFold palette */
+  --ff-primary: #00685f;
+  --ff-primary-container: #008378;
+  --ff-on-primary: #ffffff;
+  --ff-primary-fixed: #89f5e7;
+  --ff-on-primary-fixed: #00201d;
+  --ff-on-primary-fixed-variant: #005049;
+  --ff-secondary: #006398;
+  --ff-on-secondary: #ffffff;
+  --ff-secondary-fixed: #cce5ff;
+  --ff-on-secondary-container: #00476e;
+  --ff-tertiary: #825100;
+  --ff-on-tertiary: #ffffff;
+  --ff-tertiary-fixed: #ffddb8;
+  --ff-on-tertiary-fixed: #2a1700;
+  --ff-error: #ba1a1a;
+  --ff-on-error: #ffffff;
+  --ff-error-container: #ffdad6;
+  --ff-surface: #faf8ff;
+  --ff-surface-bright: #faf8ff;
+  --ff-surface-dim: #d2d9f4;
+  --ff-scl: #ffffff;
+  --ff-sc-low: #f2f3ff;
+  --ff-sc: #eaedff;
+  --ff-sc-high: #e2e7ff;
+  --ff-sc-highest: #dae2fd;
+  --ff-surface-variant: #dae2fd;
+  --ff-on-surface: #131b2e;
+  --ff-on-surface-variant: #3d4947;
+  --ff-outline: #6d7a77;
+  --ff-outline-variant: #bcc9c6;
+  --ff-inverse-surface: #283044;
+  --ff-inverse-on-surface: #eef0ff;
+
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
-  --card: oklch(1 0 0);
+  --background: #faf8ff;
+  --foreground: #131b2e;
+  --card: #ffffff;
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.129 0.042 264.695);
@@ -79,8 +179,8 @@
   --accent-foreground: oklch(0.208 0.042 265.755);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
+  --border: #bcc9c6;
+  --input: #bcc9c6;
   --ring: oklch(0.704 0.04 256.788);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
