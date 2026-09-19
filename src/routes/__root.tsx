@@ -77,11 +77,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "FreshFold — Doorstep Laundry & Dry Cleaning" },
+      {
+        name: "description",
+        content:
+          "Book laundry, dry cleaning, ironing and express service with free pickup and delivery in as little as 6 hours.",
+      },
+      { name: "author", content: "FreshFold" },
+      { property: "og:title", content: "FreshFold — Doorstep Laundry & Dry Cleaning" },
+      {
+        property: "og:description",
+        content:
+          "Book laundry, dry cleaning, ironing and express service with free pickup and delivery in as little as 6 hours.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
